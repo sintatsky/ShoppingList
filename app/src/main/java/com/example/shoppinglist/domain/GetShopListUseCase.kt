@@ -8,4 +8,5 @@ class GetShopListUseCase(private val shopListRepository: ShopListRepository) {
        return shopListRepository.getShopList()
 
     }
+
 }
